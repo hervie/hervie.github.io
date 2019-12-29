@@ -70,5 +70,3 @@ System.out.println(a);
 ```
 由于byte只能存储8位，所以425转换为二进制的时候，会只保留后8位`10101001.`，最高位是1，所以是个负数。求得原码为: `11010111`即`-87`。
 
-
-<audio src="http://static.hervie.wang/Hands%20of%20Gold.mp3" autoplay="autoplay" loop="loop" preload="meta">Your browser does not support the audio tag.</audio>
