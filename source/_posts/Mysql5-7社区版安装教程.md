@@ -2,8 +2,8 @@
 title: Mysql5.7社区版安装教程
 date: 2019-12-07 18:24:31
 tags:
-    - 安装教程
-categories: Mysql
+    - Mysql
+categories: 安装教程
 ---
 
 ## 下载

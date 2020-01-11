@@ -1,5 +1,5 @@
 ---
-title: PyCharm 2019.3.1 x64安装以及教程
+title: PyCharm 2019.3.1 x64安装以及激活教程
 date: 2019-12-28 10:23:34
 tags: 破解
 categories: 开发工具 

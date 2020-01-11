@@ -2,8 +2,8 @@
 title: Tomcat8安装教程
 date: 2019-12-03 21:45:43
 tags:
-    - 安装教程
-categories: Tomcat
+    - Tomcat
+categories: 安装教程
 ---
 [Tomcat官网](http://tomcat.apache.org/)
 

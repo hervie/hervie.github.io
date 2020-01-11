@@ -2,8 +2,8 @@
 title: JDK的安装以及环境变量的配置
 date: 2019-12-3 21:57:03
 tags:
-    - 安装教程
-categories: Java
+    - Java
+categories: 安装教程
 ---
 ## 安装
 首先将`jdk1.8.0_211`安装到`D:\Program Files\Java`。安装完成后，该文件下有两个文件夹，分别是`jdk1.8.0_211`和`jre1.8.0_211`。
