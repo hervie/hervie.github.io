@@ -7,14 +7,24 @@ tags:
 categories: 安装教程
 ---
 
-# nvm安装
+# 安装nvm
 
 - nvm下载：[下载地址](https://github.com/coreybutler/nvm-windows/releases)
 - 解压`nvm-setup.zip`，然后右键管理员权限运行安装。
-- 添加 nvm 环境变量：`setx PATH "%PATH%;D:\Programmer\nvm"`
-- 添加 node 环境变量：`setx PATH "%PATH%;D:\Programmer\nodejs"`（在安装的过程中，设置nodejs的文件夹为`D:\Programmer\nodejs`）
+- 安装位置为`D:\Node\nvm`。
+- 安装时候选择nodejs的位置为`D:\Node\nodejs`。
+- 安装完成以后先设置国内镜像，再执行`nvm install 10.14.0`，即安装10.14.0版本的nodejs。
+- `nvm use 10.14.0`。这时候就会创建出`D:\Node\nodejs`文件夹。
 
 <!-- more -->
+
+
+设置国内镜像：
+```shell
+nvm node_mirror https://npm.taobao.org/mirrors/node/
+nvm npm_mirror https://npm.taobao.org/mirrors/npm/
+```
+
 常用命令：
 - `nvm install node`:安装最新的node.js
 - `nvm install [version]`:安装指定版本的node.js
@@ -24,16 +34,9 @@ categories: 安装教程
 - `nvm node_mirror [url]`:设置`nvm`镜像
 - `nvm npm_mirror [url]`:设置`npm`镜像
 
-设置国内镜像：
-```shell
-nvm node_mirror https://npm.taobao.org/mirrors/node/
-nvm npm_mirror https://npm.taobao.org/mirrors/npm/
-```
-
-# node安装
+# 安装 node
 
 使用`nvm`安装`nodejs`：`nvm install 6.4.0`
-
 
 # npm:
 npm在安装node的时候就会自动安装了。前提条件是你需要设置node的版本号。
