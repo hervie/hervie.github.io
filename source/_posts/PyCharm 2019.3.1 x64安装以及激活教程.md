@@ -5,7 +5,9 @@ tags: 破解
 categories: 开发工具 
 ---
 # 说明
-本方法同样适用于其他 Jetbrains 产品，如 [IntelliJ IDEA 2019.2.4 x64](https://download.jetbrains.8686c.com/idea/ideaIU-2019.3.1.exe)。
+- 经过测试发现：本教程适用于`2019.3.1`版本。
+- 本方法同样适用于其他 Jetbrains 产品，如 [IntelliJ IDEA 2019.2.4 x64](https://download.jetbrains.8686c.com/idea/ideaIU-2019.3.1.exe)。
+	
 
 ## 准备
 1. 下载 [PyCharm 2019.3.1 x64](https://download.jetbrains.8686c.com/python/pycharm-professional-2019.3.1.exe)
